@@ -1,6 +1,6 @@
 # 个人主页
 
-![项目预览]()
+![项目预览](https://raw.githubusercontent.com/maajiko/Guide-page/main/assets/icons/md01.png)
 
 ## 项目简介
 
