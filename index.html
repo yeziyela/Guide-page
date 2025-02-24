@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+    <title>上官云雀</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            padding: 50px 20px;
+        }
+
+        .container {
+            max-width: 680px;
+            width: 100%;
+            padding: 40px 20px;
+        }
+
+        .profile {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 60px;
+            margin-bottom: 20px;
+            object-fit: cover;
+            display: flex;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .name {
+            font-size: 24px;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin-bottom: 10px;
+        }
+
+        .bio {
+            font-size: 16px;
+            color: #86868b;
+            margin-bottom: 30px;
+        }
+
+        .links {
+            list-style: none;
+        }
+
+        .link-item {
+            background-color: #f2f2f2;
+            border-radius: 12px;
+            margin-bottom: 12px;
+            transition: transform 0.2s ease, background-color 0.2s ease;
+        }
+
+        .link-item:hover {
+            transform: scale(1.02);
+            background-color: #e2e2e2;
+        }
+
+        .link-item a {
+            display: flex;
+            align-items: center;
+            padding: 16px 20px;
+            text-decoration: none;
+            color: #1d1d1f;
+        }
+
+        .link-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 12px;
+        }
+
+        .link-text {
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            .avatar {
+                width: 100px;
+                height: 100px;
+            }
+
+            .name {
+                font-size: 20px;
+            }
+
+            .bio {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <div id="lottie-container" class="avatar"></div>
+            <h1 class="name">上官云雀</h1>
+            <p class="bio">晚上不睡，白天不起，三十入棺</p>
+        </div>
+        <ul class="links">
+            <li class="link-item">
+                <a href="https://github.com/maajiko/Guide-page.git" target="_blank">
+                    <img src="assets/icons/github.svg" alt="Github" class="link-icon">
+                    <span class="link-text">Github</span>
+                </a>
+            </li>
+            <li class="link-item">
+                <a href="https://github.com/maajiko/Guide-page.git" target="_blank">
+                    <img src="assets/icons/rss.svg" alt="博客" class="link-icon">
+                    <span class="link-text">博客</span>
+                </a>
+            </li>
+            <li class="link-item">
+                <a href="https://t.me/maajiko" target="_blank">
+                    <img src="assets/icons/telegram.svg" alt="Telegram" class="link-icon">
+                    <span class="link-text">Telegram</span>
+                </a>
+            </li>
+            <li class="link-item">
+                <a href="mailto:maajikotg@gmail.com" target="_blank">
+                    <img src="assets/icons/mail.svg" alt="邮箱" class="link-icon">
+                    <span class="link-text">邮箱</span>
+                </a>
+            </li>
+            <li class="link-item">
+                <a href="https://www.deepseek.com" target="_blank">
+                    <img src="assets/icons/deepseek.svg" alt="Deepseek" class="link-icon">
+                    <span class="link-text">Deepseek</span>
+                </a>
+            </li>
+            <li class="link-item">
+                <a href="https://www.android.com" target="_blank">
+                    <img src="assets/icons/android.svg" alt="Android" class="link-icon">
+                    <span class="link-text">Android</span>
+                </a>
+            </li>
+            <li class="link-item">
+                <a href="https://1panel.cn" target="_blank">
+                    <img src="assets/icons/1panel.svg" alt="1Panel" class="link-icon">
+                    <span class="link-text">1Panel</span>
+                </a>
+            </li>
+            <li class="link-item">
+                <a href="https://cloudflare.com" target="_blank">
+                    <img src="assets/icons/cloudflare.svg" alt="CloudFlare" class="link-icon">
+                    <span class="link-text">CloudFlare</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <script>
+        lottie.loadAnimation({
+            container: document.getElementById('lottie-container'),
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            path: 'assets/lottie/AnimatedSticker.json'
+        });
+    </script>
+</body>
+</html>
