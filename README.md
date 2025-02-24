@@ -24,13 +24,13 @@
 
 ## 预览
 
-在线预览：[https://hi.slte.me](https://hi.slte.me)
+在线预览：[https://aa.slte.me](https://aa.slte.me)
 
 ## 安装使用
 
 1. 克隆仓库
 ```bash
-git clone https://github.com/yourusername/personal-homepage.git
+https://github.com/maajiko/Guide-page.git
 ```
 
 2. 纯静态上传目录即可
